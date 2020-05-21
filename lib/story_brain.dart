@@ -36,7 +36,11 @@ class StoryBrain {
         choice1: 'Restart',
         choice2: '')
   ];
-//TODO: Step 8 - Create a method called getStory() that returns the first storyTitle from _storyData.
+
+// Step 8 - Create a method called getStory() that returns the first storyTitle from _storyData.
+  String getStory() {
+    return _storyData[0].storyTitle;
+  }
 
 //TODO: Step 20 - Download the story plan here: https://drive.google.com/uc?export=download&id=1KU6EghkO9Hf2hRM0756xFHgNaZyGCou3
 
