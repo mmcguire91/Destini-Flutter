@@ -44,7 +44,7 @@ class _StoryPageState extends State<StoryPage> {
                   child: Text(
                     //Step 10 - use the storyBrain to get the first story title and display it in this Text Widget.
                     storyBrain.getStory(),
-//                    'Story text goes here.',
+                    //'Story text goes here.',
                     style: TextStyle(
                       fontSize: 25.0,
                     ),
@@ -111,4 +111,4 @@ class _StoryPageState extends State<StoryPage> {
   }
 }
 
-//TODO: Step 29 - Run the app and test it against the Story Outline to make sure you've completed all the steps. The code for the completed app can be found here: https://github.com/londonappbrewery/destini-challenge-completed/
+//Step 29 - Run the app and test it against the Story Outline to make sure you've completed all the steps. The code for the completed app can be found here: https://github.com/londonappbrewery/destini-challenge-completed/
